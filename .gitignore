@@ -13,3 +13,4 @@ hs_err_pid*
 
 *.log
 *.hprof
+.DS_Store
