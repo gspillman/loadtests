@@ -22,7 +22,7 @@
         <longProp name="ThreadGroup.start_time">1485962161000</longProp>
         <longProp name="ThreadGroup.end_time">1485962161000</longProp>
         <boolProp name="ThreadGroup.scheduler">true</boolProp>
-        <stringProp name="ThreadGroup.duration">600</stringProp>
+        <stringProp name="ThreadGroup.duration">${duration}</stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
       </ThreadGroup>
       <hashTree>
@@ -37,7 +37,7 @@
               </elementProp>
             </collectionProp>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">profiledata-internal-api.prod.us-east-1.nexus.bazaarvoice.com</stringProp>
+          <stringProp name="HTTPSampler.domain">profiledata-internal-api-int.prod.us-east-1.nexus.bazaarvoice.com</stringProp>
           <stringProp name="HTTPSampler.port"></stringProp>
           <stringProp name="HTTPSampler.connect_timeout"></stringProp>
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -80,7 +80,7 @@
               </elementProp>
             </collectionProp>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">profiledata-internal-api.prod.us-east-1.nexus.bazaarvoice.com</stringProp>
+          <stringProp name="HTTPSampler.domain">profiledata-internal-api-int.prod.us-east-1.nexus.bazaarvoice.com</stringProp>
           <stringProp name="HTTPSampler.port"></stringProp>
           <stringProp name="HTTPSampler.connect_timeout"></stringProp>
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
