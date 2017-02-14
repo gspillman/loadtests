@@ -22,7 +22,7 @@
         <longProp name="ThreadGroup.start_time">1485962161000</longProp>
         <longProp name="ThreadGroup.end_time">1485962161000</longProp>
         <boolProp name="ThreadGroup.scheduler">true</boolProp>
-        <stringProp name="ThreadGroup.duration">${duration}</stringProp>
+        <stringProp name="ThreadGroup.duration">600</stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
       </ThreadGroup>
       <hashTree>
@@ -52,24 +52,24 @@
             <collectionProp name="Arguments.arguments">
               <elementProp name="include" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">*</stringProp>
+                <stringProp name="Argument.value">recommendations</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">include</stringProp>
               </elementProp>
               <elementProp name="recommendations_limit" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">15</stringProp>
+                <stringProp name="Argument.value">5</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">recommendations_limit</stringProp>
               </elementProp>
-              <elementProp name="client" elementType="HTTPArgument">
+              <elementProp name="recommendations_client" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">${client}</stringProp>
+                <stringProp name="Argument.value">macys</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
-                <stringProp name="Argument.name">client</stringProp>
+                <stringProp name="Argument.name">recommendations_client</stringProp>
               </elementProp>
               <elementProp name="debug" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
@@ -77,6 +77,13 @@
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">debug</stringProp>
+              </elementProp>
+              <elementProp name="purpose" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">ads</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                <stringProp name="Argument.name">purpose</stringProp>
               </elementProp>
             </collectionProp>
           </elementProp>
